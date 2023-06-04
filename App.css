@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: grey; */
+  
+}
+
+.App{
+  display: flex;
+  height:100vh;
+  width:50vw;
+  /* flex-direction: row; */
+  background-color: rgba(128, 128, 128, 0.76);
+  color: rgba(0, 0, 0, 0.74);
+
+  
+
+}
+header{
+  position: absolute;
+  top:0;
+ /* margin: 5px; */
+ font-size: 50px;
+ width:50%;
+ background-color: rgba(0, 0, 0, 0.815);
+ color:gray;
+ /* padding:5px; */
+
+}
+
+h3{
+/* margin:10px; */
+padding: 10px;
+position: absolute;
+top: 80px;
+/* font-size: 20px; */
+
+
+}
+
+.para{
+  padding: 2px;
+  position: absolute;
+top: 150px;
+
+}
+
+button{
+ position:absolute;
+ bottom:150px;
+ right:300px;
+ /* margin: 10px;
+ padding: 10px; */
+ width:150px;
+ height:40px;
+ background-color: rgba(12, 11, 14, 0.733);
+ border-radius: 10px;
+ color:rgb(245, 230, 250);
+ border: none;
+}
+
+button:hover{
+  background-color: black;
+}
+
+
+.contact-info{
+position: absolute;
+bottom: 0;
+font-size: 12px;
+}
+
+.Background-image{
+  
+  width:50vw;
+  height: 100vh;
+}
+
+img{
+  width:100%;
+  height: 100%;
+
+}
